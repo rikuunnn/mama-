@@ -1,0 +1,57 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  color:#6c6b6b;
+}
+.main-box{
+ width: 960px;
+ margin: 0 auto;
+text-align: center;
+display: flex;
+margin: 50px auto;
+}
+.box{
+  position: relative;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid black;
+}
+.box2{
+  margin: 0 30px;
+}
+.blog-image{
+  width: 280px;
+  height: 200px;
+}
+h1{
+  font-size: 20px;
+}
+
+.step{
+position: absolute;
+top: 0px;
+left:0px;
+}
+.orange{
+  color: white;
+  background-color: orange;
+}
+@media screen and (max-width:768px) {
+  .main-box{
+    display: block;
+    width: 90%
+  }
+  .box{
+  margin:0 auto;
+  }
+  .box1{
+    margin-bottom: 30px;
+  }
+  .box2{
+margin-bottom: 30px;
+  }
+  .box3{
+
+  }
+}
